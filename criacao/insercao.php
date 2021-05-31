@@ -7,7 +7,9 @@
     <title>Inserção</title>
 </head>
 <body>
-    <a href="principal/index.php">Página Inicial</a>
+    <a href="index.php">Página Inicial</a>
+
+    <br>
 
     <?php
         $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";

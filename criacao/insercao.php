@@ -18,7 +18,7 @@
         // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $sql = "INSERT INTO dadosescola (Aluno, Disciplina, Nota_I, Nota_II)
-        VALUES ('Guylerme', 'Linguagem de Programação WEB', '8.5', '10')";
+        VALUES ('Guylherme', 'Linguagem de Programação WEB', '8.5', '10')";
         // use exec() because no results are returned
         $conn->exec($sql);
         echo "Novo Cadastro Realizado com Sucesso!!!";

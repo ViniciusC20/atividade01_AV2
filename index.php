@@ -7,6 +7,9 @@
     <title>Atividade01_AV2</title>
 </head>
 <body>
+    <h1>Atividade 01 - AV2</h1>
+    <h2>Aluno: Guylherme Vieira Sales de Oliveira</h2>
     <a href="insercao.php">Inserir</a> Dados na Tabela
+    <a href="consulta.php">Consultar</a> Tabela
 </body>
 </html>

@@ -11,10 +11,10 @@
     <h2>Aluno: Guylherme Vieira Sales de Oliveira</h2>
 
     <?php
-        $servername = "localhost";
-        $username = "username";
-        $password = "password";
-        $dbname = "myDB";
+        $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $username = "vkq7duqk43riyga7";
+        $password = "x45hrl24syx3vm75";
+        $dbname = "tillepja9tm4a3ce";
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

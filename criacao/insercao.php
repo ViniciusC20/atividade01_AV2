@@ -8,17 +8,17 @@
 </head>
 <body>
     <?php
-        $servername = "localhost";
-        $username = "username";
-        $password = "password";
-        $dbname = "myDBPDO";
+        $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $username = "vkq7duqk43riyga7";
+        $password = "x45hrl24syx3vm75";
+        $dbname = "tillepja9tm4a3ce";
 
         try {
-        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
         // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-        VALUES ('John', 'Doe', 'john@example.com')";
+        $sql = "INSERT INTO dados_escola (Nome, Disciplina, Nota I, Nota II)
+        VALUES ('João', 'Banco de Dados I', '7.5', '8')";
         // use exec() because no results are returned
         $conn->exec($sql);
         echo "Novo Cadastro Realizado com Sucesso!!!";

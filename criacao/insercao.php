@@ -17,7 +17,7 @@
         $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
         // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "INSERT INTO dados_escola (Nome, Disciplina, Nota I, Nota II)
+        $sql = "INSERT INTO dadosescola (Nome, Disciplina, Nota_I, Nota_II)
         VALUES ('João', 'Banco de Dados I', '7.5', '8')";
         // use exec() because no results are returned
         $conn->exec($sql);

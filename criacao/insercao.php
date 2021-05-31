@@ -7,10 +7,6 @@
     <title>Inserção</title>
 </head>
 <body>
-    <a href="index.php">Página Inicial</a>
-
-    <br>
-
     <?php
         $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
         $username = "vkq7duqk43riyga7";
@@ -22,7 +18,7 @@
         // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $sql = "INSERT INTO dadosescola (Aluno, Disciplina, Nota_I, Nota_II)
-        VALUES ('João Pedro', 'Banco de Dados I', '7.5', '8')";
+        VALUES ('Marcos', 'Linguagem de Programação WEB', '8.6', '9')";
         // use exec() because no results are returned
         $conn->exec($sql);
         echo "Novo Cadastro Realizado com Sucesso!!!";

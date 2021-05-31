@@ -7,10 +7,6 @@
     <title>Consulta</title>
 </head>
 <body>
-    <a href="index.php">Página Inicial</a>
-
-    <br>
-
 
 </body>
 </html>

@@ -8,25 +8,7 @@
 </head>
 <body>
     <?php
-        $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $username = "vkq7duqk43riyga7";
+        $user = "";
         $password = "x45hrl24syx3vm75";
-        $dbname = "tillepja9tm4a3ce";
-
-        try {
-        $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
-        // Modo de erro na exceção
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "INSERT INTO dadosescola (Aluno, Disciplina, Nota_I, Nota_II)
-        VALUES ('Guylherme', 'Linguagem de Programação WEB', '8.5', '10')";
-        // use exec() because no results are returned
-        $conn->exec($sql);
-        echo "Novo Cadastro Realizado com Sucesso!!!";
-        } catch(PDOException $e) {
-        echo $sql . "<br>" . $e->getMessage();
-        }
-
-        $conn = null;
-    ?>
-</body>
+        $db ="";
 </html>
